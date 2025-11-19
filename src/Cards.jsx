@@ -1,5 +1,8 @@
-export default function Cards() {
+export default function Cards(props) {
   return (
-    <h1>test</h1>
+    <>
+      <h1>{props.title}</h1>
+      <p>{props.desp}</p>
+    </>
   )
 }
